@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FrameLayout ocupa a tela inteira; o LinearLayout interno fica centralizado
+     vertical e horizontalmente via layout_gravity="center". -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnAcelerometro"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_acelerometro" />
+
+        <Button
+            android:id="@+id/btnSensorLuz"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/btn_sensor_luz" />
+
+        <Button
+            android:id="@+id/btnSensorProximidade"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/btn_sensor_proximidade" />
+    </LinearLayout>
+
+</FrameLayout>

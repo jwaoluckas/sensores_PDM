@@ -1,0 +1,48 @@
+# ---------- Build / Gradle ----------
+.gradle/
+build/
+/captures
+.externalNativeBuild
+.cxx
+.kotlin/
+
+# ---------- Configuração local (SDK path, etc.) ----------
+local.properties
+
+# ---------- IDE (Android Studio / IntelliJ) ----------
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ---------- Artefatos gerados ----------
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+/app/release/
+/app/debug/
+
+# ---------- Assinatura e segredos ----------
+*.jks
+*.keystore
+keystore.properties
+google-services.json
+.env
+.env.*
+
+# ---------- Logs ----------
+*.log
+*.hprof
+
+# ---------- Ferramentas de IA ----------
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+
+# ---------- Sistema operacional ----------
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">sensores_PDM</string>
+
+    <string name="btn_acelerometro">Acelerômetro</string>
+    <string name="btn_sensor_luz">Sensor de Luz</string>
+    <string name="btn_sensor_proximidade">Sensor de Proximidade</string>
+
+    <string name="titulo_sensor_luz">Sensor de Luz</string>
+    <string name="valor_lux_inicial">-- lux</string>
+    <string name="valor_lux">%.1f lux</string>
+    <string name="sensor_luz_indisponivel">Este dispositivo não possui sensor de luz</string>
+    <string name="em_breve">%s: em breve!</string>
+</resources>
