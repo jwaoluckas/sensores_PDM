@@ -22,13 +22,15 @@ class MainActivity : ComponentActivity() {
             startActivity(intent)
         }
 
-        // Telas ainda não implementadas: apenas um Toast por enquanto
-        btnAcelerometro.setOnClickListener {
-            mostrarEmBreve(getString(R.string.btn_acelerometro))
+        // Navegação explícita para a tela do sensor de proximidade
+        btnSensorProximidade.setOnClickListener {
+            val intent = Intent(this, ProximitySensorActivity::class.java)
+            startActivity(intent)
         }
 
-        btnSensorProximidade.setOnClickListener {
-            mostrarEmBreve(getString(R.string.btn_sensor_proximidade))
+        // Tela ainda não implementada: apenas um Toast por enquanto
+        btnAcelerometro.setOnClickListener {
+            mostrarEmBreve(getString(R.string.btn_acelerometro))
         }
     }
 

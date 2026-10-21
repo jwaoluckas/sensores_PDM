@@ -9,5 +9,13 @@
     <string name="valor_lux_inicial">-- lux</string>
     <string name="valor_lux">%.1f lux</string>
     <string name="sensor_luz_indisponivel">Este dispositivo não possui sensor de luz</string>
+
+    <string name="titulo_sensor_proximidade">Sensor de Proximidade</string>
+    <string name="valor_proximidade_inicial">-- cm</string>
+    <string name="valor_proximidade">%.1f cm</string>
+    <string name="objeto_proximo">Objeto próximo</string>
+    <string name="objeto_distante">Objeto distante</string>
+    <string name="sensor_proximidade_indisponivel">Este dispositivo não possui sensor de proximidade</string>
+
     <string name="em_breve">%s: em breve!</string>
 </resources>

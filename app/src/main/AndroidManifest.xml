@@ -8,6 +8,10 @@
         android:name="android.hardware.sensor.light"
         android:required="false" />
 
+    <uses-feature
+        android:name="android.hardware.sensor.proximity"
+        android:required="false" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -34,6 +38,11 @@
             android:name=".LightSensorActivity"
             android:exported="false"
             android:label="@string/titulo_sensor_luz" />
+
+        <activity
+            android:name=".ProximitySensorActivity"
+            android:exported="false"
+            android:label="@string/titulo_sensor_proximidade" />
 
     </application>
 
