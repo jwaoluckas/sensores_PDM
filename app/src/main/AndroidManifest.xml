@@ -5,6 +5,10 @@
     <!-- Declara que o app usa o sensor de luz, mas sem exigi-lo:
          a Play Store não esconde o app de aparelhos sem esse sensor. -->
     <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="false" />
+
+    <uses-feature
         android:name="android.hardware.sensor.light"
         android:required="false" />
 
@@ -33,6 +37,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".AccelerometerActivity"
+            android:exported="false"
+            android:label="@string/titulo_acelerometro" />
 
         <activity
             android:name=".LightSensorActivity"

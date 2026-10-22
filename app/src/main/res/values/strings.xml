@@ -10,6 +10,15 @@
     <string name="valor_lux">%.1f lux</string>
     <string name="sensor_luz_indisponivel">Este dispositivo não possui sensor de luz</string>
 
+    <string name="titulo_acelerometro">Acelerômetro</string>
+    <string name="valor_eixo_x_inicial">Eixo X: -- m/s²</string>
+    <string name="valor_eixo_y_inicial">Eixo Y: -- m/s²</string>
+    <string name="valor_eixo_z_inicial">Eixo Z: -- m/s²</string>
+    <string name="valor_eixo_x">Eixo X: %.2f m/s²</string>
+    <string name="valor_eixo_y">Eixo Y: %.2f m/s²</string>
+    <string name="valor_eixo_z">Eixo Z: %.2f m/s²</string>
+    <string name="acelerometro_indisponivel">Este dispositivo não possui acelerômetro</string>
+
     <string name="titulo_sensor_proximidade">Sensor de Proximidade</string>
     <string name="valor_proximidade_inicial">-- cm</string>
     <string name="valor_proximidade">%.1f cm</string>
